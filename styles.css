@@ -1,0 +1,32 @@
+body{
+    background-image: url('./images/1000029165.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+h1{
+    color: rgb(255, 0, 0);
+}
+p{
+    color: rgb(255, 0, 0);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+}
