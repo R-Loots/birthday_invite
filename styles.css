@@ -37,7 +37,7 @@ body.wishlist-page{
 .table-scroll table {
     border-collapse: separate;
     border-spacing: 0;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .table-scroll th {
@@ -45,6 +45,18 @@ body.wishlist-page{
     top: 0;
     z-index: 2;
 }
+
+.table-scroll th:first-child,
+.table-scroll td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+}
+
+.table-scroll thead th:first-child {
+    z-index: 3;
+}
+
 body.RSVP-page{
     background-image: url('./images/20s_17.png');
     background-repeat: no-repeat;
